@@ -1,0 +1,25 @@
+{
+  "id": 1,
+  "group": "english",
+  "title": "Inglés inicial",
+  "description": "Hablar inglés te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+  "thumbnail": "english_02.jpg",
+  "cover": "shutterstock_259826669-1280.jpg",
+  "level": 1,
+  "classes_count": 20,
+  "teachers_count": 45,
+  "featured_teachers": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Tim Ferris"
+    },
+    {
+      "id": 3,
+      "name": "Kim Dory"
+    }
+  ]
+}

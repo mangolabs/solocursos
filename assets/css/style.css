@@ -1,0 +1,184 @@
+body {
+    padding-top: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #16a085;
+}
+
+a:hover, a:focus, a:active, a:focus:active {
+    text-decoration: none;
+}
+
+.menu {
+    padding: 1rem;
+    background-color: #16a085;
+}
+
+.menu .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 1.45rem;
+}
+
+.menu .btn-secondary {
+    color: #16a085;
+    background-color: #fff;
+    border: none;
+}
+
+.menu .navbar-nav a {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.cover {
+    background-image: url(../img/photos/shutterstock_380928496-1280.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 4rem;
+    text-align: center;
+    color: #FFF;
+    border-bottom: .3rem solid #16a085;
+}
+
+.cover .overlay {
+    padding: 2rem;
+}
+
+.module {
+    margin: 0 0 2rem;
+}
+/*
+.module.languages a {
+    color: #43B7B7;
+}
+
+.module.languages .card {
+    border-bottom: 3px solid #43B7B7;
+}
+
+.module.languages .icon {
+    background: #43B7B7;
+}
+
+.module.programming a {
+    color: #8e44ad;
+}
+
+.module.programming .card {
+    border-bottom: 3px solid #8e44ad;
+}
+
+.module.programming .icon {
+    background: #8e44ad;
+}
+*/
+
+.module .icon {
+    border-radius: 50%;
+    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 1rem;
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-right: .75rem;
+    background-color: #16a085;
+}
+
+.module .card {
+    border-bottom: 3px solid #16a085;
+    margin-bottom: 2rem;
+}
+
+.module .title {
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.module .teachers .avatars {
+    float: left;
+    margin-right: 2rem;
+}
+
+.module .teachers .avatars img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: -1rem;
+    border: 2px solid #16a085;
+}
+
+.module .teachers .meta {
+    line-height: 1;
+    padding-top: .25rem;
+}
+
+.card-deck-wrapper + .card-deck-wrapper {
+    margin-top: 2rem;
+}
+
+.card-cover-top {
+    min-height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page {
+    padding: 1rem 0;
+}
+
+footer {
+    margin-top: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 3rem;
+    background: #373a3c;
+}
+
+footer a {
+    color: #FFF;
+}
+
+footer a:hover {
+    color: #FFF;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .social {
+    text-align: center;
+}
+
+footer .social .title {
+    margin-bottom: 2rem;
+}
+
+footer .social .networks a {
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.5rem;
+    line-height: 1;
+    font-size: 1.25rem;
+    margin-right: .5rem;
+}
+
+footer .social .networks a:last-child {
+    margin-right: 0;
+}
+
+footer .copyright {
+    text-align: center;
+    padding-top: 2rem;
+}

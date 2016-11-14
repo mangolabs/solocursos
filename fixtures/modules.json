@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "slug": "languages",
+    "name": "Idiomas",
+    "icon": "language",
+    "courses": [
+      {
+        "id": 1,
+        "group": "english",
+        "title": "Inglés inicial",
+        "description": "Hablar inglés te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "english_01.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 1,
+        "classes_count": 20,
+        "teachers_count": 45,
+        "featured_teachers": [
+          {
+            "id": 1,
+            "name": "John Doe"
+          },
+          {
+            "id": 2,
+            "name": "Tim Ferris"
+          },
+          {
+            "id": 3,
+            "name": "Kim Dory"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "group": "english",
+        "title": "Inglés intermedio",
+        "description": "Hablar inglés te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "english_02.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 2,
+        "classes_count": 20,
+        "teachers_count": 45,
+        "featured_teachers": [
+          {
+            "id": 4,
+            "name": "Tom Holland"
+          },
+          {
+            "id": 5,
+            "name": "Tony Stark"
+          },
+          {
+            "id": 6,
+            "name": "Katty Lin"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "group": "english",
+        "title": "Inglés avanzado",
+        "description": "Hablar inglés te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "english_03.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 3,
+        "classes_count": 20,
+        "teachers_count": 45,
+        "featured_teachers": [
+          {
+            "id": 7,
+            "name": "Hillary Thomas"
+          },
+          {
+            "id": 8,
+            "name": "Martin Martinez"
+          },
+          {
+            "id": 9,
+            "name": "Barry Harrison"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "group": "italian",
+        "title": "Italiano inicial",
+        "description": "Hablar italiano te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "italian_01.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 1,
+        "classes_count": 20,
+        "teachers_count": 45,
+        "featured_teachers": [
+          {
+            "id": 10,
+            "name": "Ivan Cantolini"
+          },
+          {
+            "id": 11,
+            "name": "Mario Testa"
+          },
+          {
+            "id": 12,
+            "name": "Nico Pastore"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "group": "italian",
+        "title": "Italiano intermedio",
+        "description": "Hablar italiano te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "italian_02.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 2,
+        "classes_count": 20,
+        "teachers_count": 45,
+        "featured_teachers": [
+          {
+            "id": 13,
+            "name": "Alessandro Bianchi"
+          },
+          {
+            "id": 14,
+            "name": "Giuseppe Esposito"
+          },
+          {
+            "id": 15,
+            "name": "Aurora Ricci"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "group": "italian",
+        "title": "Italiano avanzado",
+        "description": "Hablar italiano te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "italian_03.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 3,
+        "classes_count": 20,
+        "teachers_count": 45,
+        "featured_teachers": [
+          {
+            "id": 16,
+            "name": "Giovanni Romano"
+          },
+          {
+            "id": 17,
+            "name": "Rosa Esposito"
+          },
+          {
+            "id": 18,
+            "name": "Gianna Ferrari"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "programming",
+    "name": "Programación",
+    "icon": "code",
+    "courses": [
+      {
+        "id": 7,
+        "group": "php",
+        "title": "PHP para principiantes",
+        "description": "Aprendé a programar en el lenguaje más popular de la web. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "php.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 1,
+        "classes_count": 20,
+        "teachers_count": 13,
+        "featured_teachers": [
+          {
+            "id": 19,
+            "name": "John Doe"
+          },
+          {
+            "id": 20,
+            "name": "Tim Ferris"
+          },
+          {
+            "id": 21,
+            "name": "Kim Dory"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "group": "php",
+        "title": "Sitios web en Wordpress",
+        "description": "Wordpress es la plataforma más utilizada para crear sitios web. Este curso está enfocado en tus necesidades.",
+        "thumbnail": "wordpress.jpg",
+        "cover": "shutterstock_259826669-1280.jpg",
+        "level": 1,
+        "classes_count": 20,
+        "teachers_count": 9,
+        "featured_teachers": [
+          {
+            "id": 22,
+            "name": "Tom Holland"
+          },
+          {
+            "id": 23,
+            "name": "Tony Stark"
+          },
+          {
+            "id": 24,
+            "name": "Katty Lin"
+          }
+        ]
+      }
+    ]
+  }
+]
