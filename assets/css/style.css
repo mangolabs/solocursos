@@ -59,6 +59,11 @@ a:hover, a:focus, a:active, a:focus:active {
     text-align: right;
 }
 
+.calendar {
+    text-align: center;
+    margin: 2rem 0;
+}
+
 /*
 .module.languages a {
     color: #43B7B7;
