@@ -3,7 +3,7 @@
 <div class="cover">
     <div class="overlay">
         <div class="container">
-            Todos los cursos
+            Cursos
         </div>
     </div>
 </div>
@@ -12,7 +12,7 @@
     <div class="page">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Todos los cursos</li>
+            <li class="breadcrumb-item active">Cursos</li>
         </ol>
         <?php foreach ($data as $module): ?>
             <div class="module <?=$module->slug?>">

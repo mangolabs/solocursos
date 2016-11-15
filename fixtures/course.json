@@ -8,6 +8,10 @@
   "level": 1,
   "classes_count": 20,
   "teachers_count": 45,
+  "module": {
+    "name": "Idiomas",
+    "icon": "language"
+  },
   "featured_teachers": [
     {
       "id": 1,
@@ -20,6 +24,53 @@
     {
       "id": 3,
       "name": "Kim Dory"
+    }
+  ],
+  "units": [
+    {
+      "name": "Pronouns",
+      "lessons": [
+        {
+          "title": "Personal Pronouns"
+        },
+        {
+          "title": "Possesive Pronouns"
+        },
+        {
+          "title": "Demostrative Pronouns"
+        },
+        {
+          "title": "Reflexive Pronouns"
+        }
+      ]
+    },
+    {
+      "name": "Articles",
+      "lessons": [
+        {
+          "title": "The Definite Article"
+        },
+        {
+          "title": "The Indefinite Article"
+        }
+      ]
+    },
+    {
+      "name": "Prepositions",
+      "lessons": [
+        {
+          "title": "Prepositions"
+        },
+        {
+          "title": "Prepositions of Place"
+        },
+        {
+          "title": "Prepositions of Time"
+        },
+        {
+          "title": "Prepositions of Movement or Direction"
+        }
+      ]
     }
   ]
 }

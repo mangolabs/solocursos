@@ -50,6 +50,15 @@ a:hover, a:focus, a:active, a:focus:active {
 .module {
     margin: 0 0 2rem;
 }
+
+.table-hash {
+    margin-bottom: 0;
+}
+
+.table-hash tr td:last-child {
+    text-align: right;
+}
+
 /*
 .module.languages a {
     color: #43B7B7;
@@ -131,6 +140,30 @@ a:hover, a:focus, a:active, a:focus:active {
 .page {
     padding: 1rem 0;
 }
+
+
+.unit .name {
+    color: #9d9e9f;
+    background: #f5f7f8;
+    padding: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.unit .name .count {
+    display: inline-block;
+    float: right;
+}
+
+.unit .nav-stacked li {
+    padding: 1rem;
+    border-bottom: 1px solid #f5f7f8;
+}
+
+.unit .nav-stacked li:last-child {
+    border-bottom: 0;
+}
+
 
 footer {
     margin-top: 2rem;
