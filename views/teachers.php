@@ -4,8 +4,8 @@
     <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="/modules">Cursos</a></li>
-            <li class="breadcrumb-item"><a href="/course?id=<?=$data->id?>"><?=$data->title?></a></li>
+            <li class="breadcrumb-item"><a href="modules">Cursos</a></li>
+            <li class="breadcrumb-item"><a href="course?id=<?=$data->id?>"><?=$data->title?></a></li>
             <li class="breadcrumb-item active">Comenzar curso</li>
         </ol>
     </div>
@@ -19,7 +19,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-md-1">
-                                <a href="/calendar" class="back">
+                                <a href="calendar" class="back">
                                     <i class="fa fa-arrow-left"></i>
                                 </a>
                             </div>

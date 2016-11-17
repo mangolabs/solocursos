@@ -12,7 +12,7 @@
     <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="/modules">Cursos</a></li>
+            <li class="breadcrumb-item"><a href="modules">Cursos</a></li>
             <li class="breadcrumb-item active"><?=$data->title?></li>
         </ol>
     </div>
@@ -61,7 +61,7 @@
                         </tr>
                     </table>
                     <div class="card-block">
-                        <a href="/calendar" class="btn btn-primary btn-block btn-lg">
+                        <a href="calendar" class="btn btn-primary btn-block btn-lg">
                             Comenzar Curso
                         </a>
                     </div>

@@ -4,8 +4,8 @@
     <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="/modules">Cursos</a></li>
-            <li class="breadcrumb-item"><a href="/course?id=<?=$data->id?>"><?=$data->title?></a></li>
+            <li class="breadcrumb-item"><a href="modules">Cursos</a></li>
+            <li class="breadcrumb-item"><a href="course?id=<?=$data->id?>"><?=$data->title?></a></li>
             <li class="breadcrumb-item active">Comenzar curso</li>
         </ol>
     </div>
@@ -51,7 +51,7 @@
                                             <?php foreach ($data->dates as $date): ?>
                                                 <td>
                                                     <?php if (in_array($hour, $data->availableDates->{$date}->availableHours)): ?>
-                                                        <a href="/teachers" class="btn btn-primary">
+                                                        <a href="teachers" class="btn btn-primary">
                                                             Reservar
                                                         </a>
                                                     <?php endif; ?>
