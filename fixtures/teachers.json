@@ -1,0 +1,49 @@
+{
+  "id": 1,
+  "group": "english",
+  "title": "Inglés inicial",
+  "description": "Hablar inglés te abre la puerta a un futuro lleno de oportunidades. Este curso está enfocado en tus necesidades.",
+  "thumbnail": "english_02.jpg",
+  "cover": "shutterstock_259826669-1280.jpg",
+  "level": 1,
+  "classes_count": 20,
+  "teachers_count": 45,
+  "module": {
+    "name": "Idiomas",
+    "icon": "language"
+  },
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Mike Doe",
+      "country": "Estados Unidos",
+      "rating": 5,
+      "price": 10,
+      "description": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante."
+    },
+    {
+      "id": 2,
+      "name": "John Ferris",
+      "country": "Reino Unido",
+      "rating": 4,
+      "price": 14,
+      "description": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante."
+    },
+    {
+      "id": 3,
+      "name": "Tim Torrent",
+      "country": "Argentina",
+      "rating": 3,
+      "price": 8,
+      "description": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante."
+    },
+    {
+      "id": 4,
+      "name": "Mark Amell",
+      "country": "Australia",
+      "rating": 3,
+      "price": 9,
+      "description": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante."
+    }
+  ]
+}

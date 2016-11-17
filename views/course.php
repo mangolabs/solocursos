@@ -8,27 +8,23 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="page">
+<div class="breadcrumbs">
+    <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item"><a href="/modules">Cursos</a></li>
-            <li class="breadcrumb-item"><a href="/modules"><?=$data->module->name?></a></li>
             <li class="breadcrumb-item active"><?=$data->title?></li>
         </ol>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page">
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-cover-top" style="background-image: url(<?=$config['assets_url']?>img/<?=$data->thumbnail?>)"></div>
                     <table class="table table-hash">
-                        <tr>
-                            <td>
-                                Clases
-                            </td>
-                            <td>
-                                <?=$data->classes_count?>
-                            </td>
-                        </tr>
                         <tr>
                             <td>
                                 Nivel
@@ -41,6 +37,22 @@
                         </tr>
                         <tr>
                             <td>
+                                Clases
+                            </td>
+                            <td>
+                                <?=$data->classes_count?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Durací&oacute;n por clase
+                            </td>
+                            <td>
+                                1 hora
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
                                 Profesores disponibles
                             </td>
                             <td>
@@ -49,7 +61,7 @@
                         </tr>
                     </table>
                     <div class="card-block">
-                        <a href="#" class="btn btn-primary btn-block btn-lg">
+                        <a href="/calendar" class="btn btn-primary btn-block btn-lg">
                             Comenzar Curso
                         </a>
                     </div>

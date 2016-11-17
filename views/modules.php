@@ -8,16 +8,21 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="page">
+<div class="breadcrumbs">
+    <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item active">Cursos</li>
         </ol>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page">
         <?php foreach ($data as $module): ?>
             <div class="module <?=$module->slug?>">
                 <h2 class="title">
-                    <div class="icon">
+                    <div class="round-icon">
                         <i class="fa fa-<?=$module->icon?>"></i>
                     </div>
                     <?=$module->name?>
