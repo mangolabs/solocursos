@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Mike Doe",
+  "cover": "shutterstock_259826669-1280.jpg",
+  "country": "Estados Unidos",
+  "rating": 5,
+  "price": 10,
+  "description": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante."
+}

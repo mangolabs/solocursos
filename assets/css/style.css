@@ -34,6 +34,10 @@ a:hover, a:focus, a:active, a:focus:active {
     text-decoration: none;
 }
 
+.nav-pills {
+    margin-bottom: 1rem;
+}
+
 .menu {
     padding: 1rem;
     background-color: #16a085;
@@ -96,6 +100,11 @@ a:hover, a:focus, a:active, a:focus:active {
 .calendar {
     text-align: center;
     margin: 2rem 0;
+}
+
+.underline-heading  {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 1rem;
 }
 
 /*
